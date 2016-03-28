@@ -126,7 +126,7 @@ static CGFloat speedF = 0.5;
     //自定义组件中常用到
     [UIView beginAnimations:nil context:nil];
     
-    self.centerView.view.transform = CGAffineTransformScale(CGAffineTransformIdentity, 1, 1);
+    self.centerView.view.transform = CGAffineTransformScale(CGAffineTransformIdentity, 1, 1);//1 缩放比例
     
     self.centerView.view.center = CGPointMake(360, self.view.bounds.size.height/2);
     
