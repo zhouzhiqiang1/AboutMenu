@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
   s.name         = "AboutMenu"
-  s.version      = "0.9.2"
+  s.version      = "0.0.1"
   s.summary      = "An iOS activity indicator view."
   s.description  = <<-DESC
                     This is a test.
